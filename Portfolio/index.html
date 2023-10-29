@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prabhat Dwivedi</title>
+    <link rel="shortcut icon" href="./images/pd.png" type="image/x-icon" sizes="10px">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"></head>
+<body>
+  <div class="header">
+    <a href="#" class="logo">PD</a>
+    <input type="checkbox" id="check">
+    <label for="check" class="icon">
+        <i class='bx bx-menu menu-icon ' id="active"></i>
+        <i class='bx bx-x menu-icon ' id="close"></i>
+    </label>
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  
+  <div class="about" id="about">
+    <div class="info">
+        <div class="hi">Hey there, I am<span class="name">Prabhat </span></div>
+        
+        <div class="ido">A passionate web developer,</div>
+        <div class="text">
+            dedicated to propelling businesses to new heights in the digital landscape. My expertise lies in crafting user-centric, growth-oriented websites that leave a lasting impact. 
+            <br><br>
+            As a passionate student of technology, I'm driven by a relentless curiosity to explore and adopt the latest advancements in web development. This dual role as a developer and eager learner enables me to offer cutting-edge solutions while staying ahead of industry trends. Let's collaborate and transform your online presence into a thriving success story!
+        </div>
+    </div>
+    <div class="animation"><img src="./images/png1.gif" alt=""></div>
+
+    
+  </div>  
+
+  <div class="skills" id="skills">
+    <div class="skill-head">SKILLS</div>
+    <div class="main-grid">
+      <div class="skill-container">
+        <div class="skill-name">Programming Languages</div>
+        <div class="languages ">
+          <div class="skill-icon" onmouseenter="showc()" onmouseleave="hidec()"><div class="none" id="c" >C lang </div><img src="./images/c.png" alt="" srcset="" class="skill-img"></div>
+          <div class="skill-icon"onmouseenter="showcpp()" onmouseleave="hidecpp()"><div class="none" id="cpp" >C++</div><img src="./images/cpp.png" alt="" class="skill-img"></div>
+          <div class="skill-icon"onmouseenter="showjs()" onmouseleave="hidejs()"><div class="none" id="js" >JavaScript</div><img src="./images/js.png" alt="" class="skill-img"></div>
+          <div class="skill-icon"onmouseenter="showpython()" onmouseleave="hidepython()"><div class="none" id="python" >Pyhton</div><img src="./images/pyhton.png" alt="" class="skill-img"></div>
+        </div>
+      </div>
+      <div class="skill-container">
+        <div class="skill-name">Front End Tools</div>
+        <div class="front-end ">
+          <div class="skill-icon" onmouseenter="showhtml()" onmouseleave="hidehtml()"><div class="none" id="html" >HTML</div><img src="./images/html.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showcss()" onmouseleave="hidecss()"><div class="none" id="css" >CSS</div><img src="./images/css.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showjavascript()" onmouseleave="hidejavascript()"><div class="none" id="JavaScript" >JavaScript</div><img src="./images/js.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showreact()" onmouseleave="hidereact()"><div class="none" id="react" >React</div><img src="images/react.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showtailwind()" onmouseleave="hidetailwind()"><div class="none " id="tailwind" >Tailwind</div><img src="images/tailwind.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showbootstrap()" onmouseleave="hidebootstrap()"><div class="none " id="bootstrap" >Bootstrap</div><img src="images/bootstrap.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showsaas()" onmouseleave="hidesaas()"><div class="none " id="saas" >SAAS</div><img src="images/saas.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showopencv()" onmouseleave="hideopencv()"><div class="none " id="opencv" >OpenCV</div><img src="images/opencv.png" alt="" class="skill-img"></div>
+        </div>
+      </div>
+      <div class="skill-container backend-container">
+        <div class="skill-name">Backend Tools</div>
+        <div class="backend">
+          <div class="skill-icon" onmouseenter="shownode()" onmouseleave="hidenode()"><div class="none" id="node" >Node JS</div><img src="./images/node js.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showexpress()" onmouseleave="hideexpress()"><div class="none" id="express" >Express JS</div><img src="./images/Express.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showfirebase()" onmouseleave="hidefirebase()"><div class="none" id="firebase" >Firebase</div><img src="./images/firebase.png" alt="" class="skill-img"></div>
+          <div class="skill-icon" onmouseenter="showmysql()" onmouseleave="hidemysql()"><div class="none" id="mysql" >MySQL</div><img src="./images/sql.png" alt="" class="skill-img"></div>
+        </div>
+      </div>
+      <div class="skill-container">
+        <div class="skill-name">Other Tools</div>
+        <div class="other-tools">
+          <div class="skill-icon "onmouseenter="showgit()" onmouseleave="hidegit()"><div class="none " id="git" >Git</div><img src="./images/git.png" alt="" class="skill-img"></div>
+          <div class="skill-icon "onmouseenter="showgithub()" onmouseleave="hidegithub()"><div class="none " id="github" >Github</div><img src="./images/github.png" alt="" class="skill-img"></div>
+          <div class="skill-icon "onmouseenter="shownetlify()" onmouseleave="hidenetlify()"><div class="none " id="netlify" >Netlify</div><img src="./images/nitlify.png" alt="" class="skill-img"></div>
+          <div class="skill-icon "onmouseenter="shownpm()" onmouseleave="hidenpm()"><div class="none " id="npm" >NPM</div><img src="./images/npm.png" alt="" class="skill-img"></div>
+          <div class="skill-icon "onmouseenter="showvim()" onmouseleave="hidevim()"><div class="none " id="vim" >VIM</div><img src="./images/vim.png" alt="" class="skill-img"></div>
+          <div class="skill-icon "onmouseenter="showvscode()" onmouseleave="hidevscode()"><div class="none " id="vscode" >VS Code</div><img src="./images/vs code.png" alt="" class="skill-img"></div>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <div class="coding-profiles">
+    <div class="card profiles"  >
+      <div class="sect-name">Coding Profiles</div>
+      <div class="profile-logo">
+        <div class="codeing-profile"><a href="https://leetcode.com/prabhat224/" target="_blank"><img class="profile-icons"src="./images//leetcode.png" alt=""></a></div>
+        <div class="codeing-profile"><a href="https://www.codechef.com/users/prabhat224" target="_blank"><img class="profile-icons"src="./images/codechefwhite.png" alt=""></a></div>
+        <div class="codeing-profile"><a href="https://github.com/prabhat224" target="_blank"><img class="profile-icons"src="./images/githubwhite.png" alt=""></a></div>
+      </div>
+      <div class="achievements">
+        <ul class="coding-achievements">
+          <li class="achievement-detail"><b>500+</b> Questions on leetcode</li>
+          <li class="achievement-detail">Secured global rank under 5000 in leetcode biweekly contest 110</li>
+          <li class="achievement-detail"><b>2 Star</b> on codechef</li>
+          <li class="achievement-detail">Codechef Max.rating 1402 </li>
+        </ul>
+      </div>
+    </div>
+    <button class="button resume">
+      <a class="link-to-resume" href="./My Resume.pdf" target="_blank">Resume</a>
+      <div class="button__horizontal"></div>
+      <div class="button__vertical"></div>
+    </button>
+    <div class="card education">
+      <div class="sect-name"> Academics</div>
+      <ul class="ed-details">
+        <li class="achievement-detail">I am persuing my Bachelors in Technology in Computer Science and Artificial Intelligence (CGPA 8.45) from G.L Bajaj Institute of Technology and Management</li>
+        <li class="achievement-detail">I do find Networking really interesting among all core subjects that I have come across till now.</li>
+        <li class="achievement-detail">I also like System Design because of its procedural and logical nature. </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="main-of-project" id="projects">
+    <div class="skill-head project-head">Projects</div>
+    <div class="apply-grid">
+      <div class="wrap animate pop">
+        <div class="overlay">
+          <div class="overlay-content animate slide-left delay-2">
+            <h1 class="animate slide-left pop delay-4">Pintrest Clone</h1>
+            <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">React, Unsplash API, Styled Components</p>
+          </div>
+          <div class="image-content1 animate slide delay-5"></div>
+              <div class="dots animate">
+                <div class="dot animate slide-up delay-6"></div>
+                <div class="dot animate slide-up delay-7"></div>
+                <div class="dot animate slide-up delay-8"></div>
+              </div>
+        </div>
+          <div class="project-text">
+            <div class="project-info">
+              <div class="project-title">Pintrest Clone</div>
+              <div class="project-intro">Introducing my Pinterest-inspired project, crafted with React, Styled Components, and powered by the Unsplash API. Discover and curate your visual inspirations effortlessly. Seamlessly organized, beautifully presented. Elevate your creative journey with this intuitive platform.</div>
+              <div class="links">
+                <div class="link"><a href="https://github.com/prabhat224/Pintrest-Clone"><i class='bx bxl-github'></i></a></div>
+                <div class="link"><a href="https://pintrest224.netlify.app/"><i class='bx bx-link-alt' ></i></a></div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="wrap animate pop">
+        <div class="overlay">
+          <div class="overlay-content animate slide-left delay-2">
+            <h1 class="animate slide-left pop delay-4">YoBot</h1>
+            <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">HTML, CSS, JavaScript, OpenAi API</p>
+          </div>
+          <div class="image-content2 animate slide delay-5"></div>
+              <div class="dots animate">
+                <div class="dot animate slide-up delay-6"></div>
+                <div class="dot animate slide-up delay-7"></div>
+                <div class="dot animate slide-up delay-8"></div>
+              </div>
+        </div>
+          <div class="project-text">
+            <div class="project-info">
+              <div class="project-title">YoBot</div>
+              <div class="project-intro">Yobot, a dynamic chatbot powered by HTML, CSS, JavaScript, jQuery, and OpenAI API. Engage in natural, interactive conversations with this innovative AI companion. Elevate user experiences and automate interactions with this cutting-edge technology.</div>
+              <div class="links">
+                <div class="link"><a href="https://github.com/prabhat224/yobot"><i class='bx bxl-github'></i></a></div>
+                <div class="link"><a href="https://yobot224.netlify.app/"><i class='bx bx-link-alt' ></i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="wrap animate pop">
+        <div class="overlay">
+          <div class="overlay-content animate slide-left delay-2">
+            <h1 class="animate slide-left pop delay-4">Portfolio</h1>
+            <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">HTML, CSS, JavaScript, jQuery</p>
+          </div>
+          <div class="image-content3 animate slide delay-5"></div>
+              <div class="dots animate">
+                <div class="dot animate slide-up delay-6"></div>
+                <div class="dot animate slide-up delay-7"></div>
+                <div class="dot animate slide-up delay-8"></div>
+              </div>
+        </div>
+          <div class="project-text">
+            <div class="project-info">
+              <div class="project-title">Portfolio Website</div>
+              <div class="project-intro">My portfolio website, meticulously crafted with HTML, CSS, JavaScript, and jQuery. Explore a showcase of my skills, projects, and experiences. Seamlessly designed and user-friendly, it reflects my dedication to creating compelling web experiences.</div>
+              <div class="links">
+                <div class="link"><a href="https://github.com/prabhat224/portfolio_website"><i class='bx bxl-github'></i></a></div>
+                <div class="link"><a href="https://meprabhatdwivedi224.netlify.app" target="_blank"><i class='bx bx-link-alt' ></i></a></div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="wrap animate pop">
+        <div class="overlay">
+          <div class="overlay-content animate slide-left delay-2">
+            <h1 class="animate slide-left pop delay-4">Weather App</h1>
+            <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem;">HTML, CSS, JavaScript, OpenWeather API </p>
+          </div>
+          <div class="image-content4 animate slide delay-5"></div>
+              <div class="dots animate">
+                <div class="dot animate slide-up delay-6"></div>
+                <div class="dot animate slide-up delay-7"></div>
+                <div class="dot animate slide-up delay-8"></div>
+              </div>
+        </div>
+          <div class="project-text">
+            <div class="project-info">
+              <div class="project-title">Weather App</div>
+              <div class="project-intro">A Weather App, built with HTML, CSS, JavaScript and OpenWeather API. Get real-time weather updates with ease. Sleek design and intuitive functionality provide accurate forecasts, ensuring you're prepared for any forecast.</div>
+              <div class="links">
+                <div class="link"><a href="https://github.com/prabhat224/weather-app"><i class='bx bxl-github'></i></a></div>
+                <div class="link"><a href="https://weatherapp224.netlify.app/"><i class='bx bx-link-alt' ></i></a></div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="contact" id="contact">
+    <div class="contact-me">
+      Contact Me
+    </div>
+   <div class="footer-margins">
+    <div class="social">
+      <div class="social-icons icon1"><a href="https://www.linkedin.com/in/prabhat-dwivedi-293886243/" target="_blank"><img src="./images/linkedin.png" alt="" srcset=""></a></div>
+      <div class="social-icons"><a href="https://github.com/prabhat224" target="_blank"><img src="./images/githubwhite.png" alt=""></a></div>
+      <div class="social-icons"><a href="https://www.instagram.com/prayvatdeivoide__/" target="_blank"><img src="./images/insta.png" alt=""></a></div>
+      <div class="social-icons mailbottom"><a href="mailto:prabhatrko619@gmail.com"><img src="./images/mailbottom.png" alt=""></a></div>
+    </div>
+  </div> 
+  </div>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
+</body>
+</html>
